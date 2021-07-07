@@ -1,0 +1,13 @@
+
+<div class="comment-section"><span>COMMENTS</span>
+{{#each comments as |comments|}}
+
+<div class="people-comments">
+  <div class="buttomborder">
+  <h2>- <span>{{user.username}}</span></h2>
+  <p class="card-text">{{comment}}</p>
+  <h3 class = "card-subtitle mb-2 ">{{createdAt}}</h3>
+  </div>
+</div>
+{{/each}}
+</div>

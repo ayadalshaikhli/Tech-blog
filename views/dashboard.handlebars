@@ -1,0 +1,14 @@
+<div class="dashboard-section">
+<h2 class = "m-3"><span>YOUR POSTS:</span></h2>
+<div>
+    <div class = "m-5">
+        {{#each posts as |post|}}
+        {{> one-post-template}}
+        <a href="/api/posts/editpost/{{post.id}}" class="btn"><i class="fas fa-edit"></i></a>
+        {{/each}}
+    </div>   
+</div>
+
+</div>
+
+

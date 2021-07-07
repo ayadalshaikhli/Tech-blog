@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500;900&display=swap");
+body {
+  background-color: #e7e6e6;
+  font-family: "Encode Sans SC", sans-serif;
+  line-height: 40px;
+}
+
+/* ==================== */
+/* ===========MAIN PAGE========= */
+/* ==================== */
+.coloredText {
+  width: 100%;
+  height: 50vh;
+  background-color: #cbff0f;
+}
+.coloredText h1 {
+  font-family: "Encode Sans SC", sans-serif;
+  font-size: 20rem;
+}
+/* ==================== */
+/* ===========MAIN PAGE POSTS========= */
+/* ==================== */
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-size: 1.5em;
+}
+.cards:nth-child(odd) {
+  background-color: #262626;
+  margin-bottom: 30px;
+  color: white;
+}
+.cards:nth-child(odd) span {
+  color: #cbff0f;
+}
+.cards:nth-child(odd) i {
+  color: #cbff0f;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  font-family: "Encode Sans SC", sans-serif;
+  margin-bottom: 20px;
+}
+.createdBy {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.createdBy a {
+  text-decoration: none;
+}
+
+/* ==================== */
+/* ===========ONE PAGE POSTS========= */
+/* ==================== */
+
+.cards-One-Post {
+  background-color: #262626;
+  width: 100%;
+  height: 60vh;
+  padding: 3%;
+  color: white;
+  font-family: "Encode Sans SC", sans-serif;
+}
+
+.cards-One-Post h1 {
+  font-size: 10em;
+}
+.cards-One-Post span {
+  color: #cbff0f;
+}
+
+.createdBy-One-Post {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.date-One-Post {
+  font-size: 1em;
+}
+.postContent-One-Post {
+  font-size: 3em;
+}
+/* ==================== */
+/* ===========ONE PAGE POSTS ADD COMMENTS========= */
+/* ==================== */
+.addcomments {
+  background-color: #262626;
+  color: white;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+}
+.addcomments h1 {
+  font-size: 8em;
+}
+.addcomments span {
+  color: #cbff0f;
+}
+.addcomments .btn {
+  color: #262626 !important;
+  background-color: white;
+}
+
+/* ==================== */
+/* ===========ONE PAGE POSTS COMMENTS========= */
+/* ==================== */
+
+.comment-section {
+  width: 100%;
+  height: auto;
+  background-color: #262626;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.comment-section span {
+  color: #cbff0f;
+  font-size: 10em;
+}
+
+.people-comments {
+  color: white;
+  padding: 2%;
+}
+.buttomborder {
+  border-bottom: solid white 1px;
+}
+.people-comments span {
+  color: #cbff0f;
+  font-size: 3em;
+}
+
+.people-comments p {
+  font-size: 2em;
+}
+.people-comments h3 {
+  font-size: 0.8em;
+}
+
+/* ==================== */
+/* ===========Login========= */
+/* ==================== */
+
+.login-signup-background {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+
+.login-signup-info {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #262626;
+  border-radius: 50px;
+  padding: 3%;
+}
+
+.login-signup-info .btn {
+  color: #262626 !important;
+  background-color: white;
+}
+
+/* ==================== */
+/* ===========DashBoard========= */
+/* ==================== */
+.dashboard-section {
+  background-color: #262626;
+}
+
+.dashboard-section h2 span {
+  color: #cbff0f;
+  font-size: 10em;
+}
+
+.dashboard-section a {
+  color: white;
+  font-size: 2em;
+  margin-top: -400px;
+  padding-left: 600px;
+}
