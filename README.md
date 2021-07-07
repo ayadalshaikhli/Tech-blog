@@ -60,6 +60,3 @@ The web page asks for your team name, then after submitting, will display all th
 5. https://developer.mozilla.org/en-US/
 6. https://docs.mapbox.com/
 
-![homepage](public/img/homepage.png)
-![onepost](public/img/loggedin.png)
-![dashboard](public/img/onepost.png)
