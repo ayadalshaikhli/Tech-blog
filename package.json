@@ -1,10 +1,9 @@
 {
   "name": "tech-blog",
   "version": "1.0.0",
-  "description": "1. https://sequelize.org/master/class/lib/data-types.js~TEXT.html\r 2. https://www.youtube.com/watch?v=1NrHkjlWVhM\r 3. https://developer.okta.com/blog/2019/05/31/simple-auth-express-fifteen-minutes",
+  "description": "A sample Node.js app using Express 4",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "seed": "node seeds/seed.js"
   },
@@ -31,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ayadalshaikhli/Tech-blog"
+    "url": "git+https://github.com/ayadalshaikhli/Tech-blog"
   },
   "keywords": [
     "node",
@@ -39,9 +38,5 @@
     "express"
   ],
   "bugs": {},
-  "homepage": "",
-  "devDependencies": {
-    "got": "^11.3.0",
-    "tape": "^4.7.0"
-  }
+  "homepage": "https://github.com/ayadalshaikhli/Tech-blog#readme"
 }
