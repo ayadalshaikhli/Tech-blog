@@ -1,5 +1,5 @@
 {
-  "name": "Tech-blog",
+  "name": "tech-blog",
   "version": "1.0.0",
   "description": "1. https://sequelize.org/master/class/lib/data-types.js~TEXT.html\r 2. https://www.youtube.com/watch?v=1NrHkjlWVhM\r 3. https://developer.okta.com/blog/2019/05/31/simple-auth-express-fifteen-minutes",
   "main": "server.js",
@@ -38,8 +38,7 @@
     "heroku",
     "express"
   ],
-  "bugs": {
-  },
+  "bugs": {},
   "homepage": "",
   "devDependencies": {
     "got": "^11.3.0",
